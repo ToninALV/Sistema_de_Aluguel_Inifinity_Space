@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'MadeTommy';
+    src: url(/fonts/made_tommy/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#cabecalho {
+    background-color: #063c35;
+}
+
+header{
+    display: flex;
+    height: 130px;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+header nav img {
+    width: 270px;
+    height: 60px;
+}
+
+header nav a {
+    color: white;
+    font-family: 'MadeTommy';
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header p {
+    color: white;
+    font-family: 'MadeTommy';
+    text-transform: none;
+    text-decoration: none;
+    font-size: 13px;
+}
