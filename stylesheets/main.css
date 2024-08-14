@@ -15,39 +15,124 @@
     font-style: normal;
 }
 
-
-#cabecalho {
-    background-color: #063c35;
+body {
+    background-color: #ac653d;
 }
 
 header{
     display: flex;
-    height: 130px;
-    width: 100vw;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 30px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #063c35;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
+#div-logo{
 
+}
 
-header nav img {
+#logo {
     width: 270px;
     height: 60px;
 }
 
-header nav a {
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+#navbar ul li {
+    align-items: center;
+}
+
+#navbar a {
     color: white;
     font-family: 'MadeTommy';
     text-transform: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
 }
 
-header p {
+#navbar a:hover {
+    font-size: 130%;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+address  {
     color: white;
     font-family: 'MadeTommy';
     text-transform: none;
     text-decoration: none;
     font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    width: 2000px;
+    display: inline;
+    
+}
+
+address a {
+    text-decoration: none;
+    color: white;
+    font-family: 'MadeTommy';
+    font-size: 15px;
+
+}
+
+#info-site {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 95%;
+    height: 2000px;
+    margin-top: 35px;
+    margin-left: 10px;
+    
+    padding-left: 10px;
+}
+
+
+
+#sobre {
+    width: 30%;
+    margin-top: 30px;
+}
+
+#sobre h1 {
+    color: white;
+    font-family: 'MadeTommy';
+    font-size: 30px;
+    text-shadow: black  0.4px 0.4px 0.4px;
+    text-transform: uppercase;
+}
+
+#sobre p {
+    color: white;
+    font-family: 'MadeTommy';
+    text-align: justify;
+    text-shadow: black  0.3px 0.3px 0.3px;
+}
+
+.imagemdecoracao {
+    margin: 15px;
+    width: 70%;
+    height: 700px;
+}
+
+.imagemdecoracao img {
+    width: 100%;
 }
