@@ -1,13 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-decoration: none;
-}
-
 @font-face {
     font-family: 'MadeTommy';
     src: url(/fonts/made_tommy/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
@@ -15,124 +5,122 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Bahnscript';
+    src: url(/fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #ac653d;
+    background: #AC653D;
+    color: #FFFFFF;
+    width: 100vw;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+header {
     width: 100%;
-    background-color: #063c35;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-#div-logo{
-
-}
-
-#logo {
-    width: 270px;
-    height: 60px;
-}
-
-#navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
-
-#navbar ul li {
-    align-items: center;
-}
-
-#navbar a {
-    color: white;
-    font-family: 'MadeTommy';
-    text-transform: none;
-    text-decoration: none;
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-
-}
-
-#navbar a:hover {
-    font-size: 130%;
-}
-
-#corpo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-address  {
-    color: white;
-    font-family: 'MadeTommy';
-    text-transform: none;
-    text-decoration: none;
-    font-size: 13px;
-    text-align: center;
-    margin-top: 5px;
-    width: 2000px;
-    display: inline;
-    
-}
-
-address a {
-    text-decoration: none;
-    color: white;
-    font-family: 'MadeTommy';
-    font-size: 15px;
+    background: #063c35;
 
 }
 
-#info-site {
+.navbar {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    width: 95%;
-    height: 2000px;
-    margin-top: 35px;
-    margin-left: 10px;
-    padding-left: 10px;
-    position: absolute;
-    top: 130px;
-    left: 935px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 18rem;
+    width: 100%;
 }
 
-
-#sobre {
-    width: 40%;
+.logo {
+    width: 250px;
+    height: 59px;
 }
 
-#sobre h1 {
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar ul a {
     color: white;
-    font-family: 'MadeTommy';
-    font-size: 35px;
-    text-shadow: black  0.5px 0.4px 0.5px;
+    text-decoration: none;
+    font-family: "MadeTommy";
+    font-size: 20px;
     text-transform: uppercase;
 }
 
-#sobre p {
-    color: white;
-    font-family: 'MadeTommy';
-    text-align: justify;
-    text-shadow: black  0.5px 0.4px 0.5px;
-    font-size: 18px;
+.texto-header {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Bahnscript';
+    font-size: 1rem;
+
 }
 
-.background-image {
-    width: 85%;
+main {
+    
 }
 
-.background-image img {
-    opacity: 100%;
+.corpo-principal {
+    
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.caixa-img {
+    width: 1000px;
+    height: 100%;
+}
+
+.corpo-principal img {
+    width: 700px;
+    padding: 1.3rem;
+    border-radius: 3rem;
+}
+
+.corpo-principal section {
+    padding-bottom: 10rem;
+    padding-left: 15rem;
+}
+
+.corpo-principal h1 {
+    text-transform: uppercase;
+    font-family: 'Bahnscript';
+    font-size: 48px;
+}
+
+.corpo-principal hr {
+    width: 75%;
+}
+
+.corpo-principal p {
+    width: 75%;
+}
+
