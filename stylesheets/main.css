@@ -101,22 +101,22 @@ address a {
     height: 2000px;
     margin-top: 35px;
     margin-left: 10px;
-    
     padding-left: 10px;
+    position: absolute;
+    top: 130px;
+    left: 935px;
 }
 
 
-
 #sobre {
-    width: 30%;
-    margin-top: 30px;
+    width: 40%;
 }
 
 #sobre h1 {
     color: white;
     font-family: 'MadeTommy';
-    font-size: 30px;
-    text-shadow: black  0.4px 0.4px 0.4px;
+    font-size: 35px;
+    text-shadow: black  0.5px 0.4px 0.5px;
     text-transform: uppercase;
 }
 
@@ -124,15 +124,15 @@ address a {
     color: white;
     font-family: 'MadeTommy';
     text-align: justify;
-    text-shadow: black  0.3px 0.3px 0.3px;
+    text-shadow: black  0.5px 0.4px 0.5px;
+    font-size: 18px;
 }
 
-.imagemdecoracao {
-    margin: 15px;
-    width: 70%;
-    height: 700px;
+.background-image {
+    width: 85%;
 }
 
-.imagemdecoracao img {
+.background-image img {
+    opacity: 100%;
     width: 100%;
 }
