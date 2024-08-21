@@ -4,54 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinity Space Eventos</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Infinity Space Eventos oferece um espaço elegante e confortável, com ambiente climatizado, cozinha completa, sistema de som, mesas e cadeiras, além de um espaço kids com brinquedos. Possui banheiros separados, bebedouro e recepção especial para acolher seus convidados.">
     <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
 
 </head>
 <body>
 
-    <header>
-        <nav class="navbar">
-            <span class="logo"><img src="/imgs/Logo Marrom.png" alt="logo com simbolo marrom"></span>
-            <ul>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Reserva</a></li>
-                <li><a href="#">Parceiros</a></li>
-                <li><a href="#">Fotos</a></li>
-                <li><a href="#">Contato</a></li>
+    <header class="cabeçalho">
+        <div class="container">
+            <img src="/imgs/Logo Marrom.png" alt="Logo do Infinity Space" class="container__imagem">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Eventos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Reserva</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Parceiros</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Fotos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Contato</a>
+                </li>
             </ul>
-        </nav>
-        <p class="texto-header">R. João Rosa, 1110 - São Sebastião, Igarapé - MG, 32900-000 • 31 99082-6551 • infinityspaceeventos@gmail.com</p>
-    </header>
-
-    <main>
-        <div class="corpo-principal">
-            <div class="caixa-img">
-                <img src="/imgs/Decoração infinity.jpeg" alt="mesa decorada" srcset="">
-            </div>
-                <section id="texto-corpo">
-                <h1>sobre o infinity space</h1>
-                <hr>
-                <br>
-                <p>Na Infinity Space Eventos, você encontra bom gosto, conforto e uma estrutura completa para o seu evento. <br>Nosso espaço conta com ambiente climatizado, cozinha equipada (freezer, fogão industrial, forno, geladeira, coifa e mesa), som ambiente, 7 mesas redondas com 56 cadeiras de ferro, além de um espaço kids com cama elástica, piscina de bolinhas, escorregador e casinha.<br><br>Disponibilizamos banheiros feminino e masculino separados, bebedouro, e uma recepção especial para receber seus convidados com todo o cuidado e atenção que eles merecem.</p>
-            </section>
         </div>
 
-        <section class="galeria">
-            <div class="galeria-esquerdo">
-                <img src="/imgs/Espaço inauguração.jpeg" alt="" srcset="">
-                <img src="/imgs/Pessoas Inauguração.jpeg" alt="" srcset="">
+        <section class="container__corpo">
+            <div>
+                <span class="imagem__central"></span>
+                <div>
+                    <h1>Sobre o Infinity Space</h1>
+                    <hr>
+                    <p>Na Infinity Space Eventos, você encontra bom gosto, conforto e uma estrutura completa para o seu evento.
+                        Nosso espaço conta com ambiente climatizado, cozinha equipada (freezer, fogão industrial, forno, geladeira, coifa e mesa), som ambiente, 7 mesas redondas com 56 cadeiras de ferro, além de um espaço kids com cama elástica, piscina de bolinhas, escorregador e casinha.Disponibilizamos banheiros feminino e masculino separados, bebedouro, e uma recepção especial para receber seus convidados com todo o cuidado e atenção que eles merecem.</p>
+                </div>
             </div>
-            <div class="galeria-direito">
-                <img src="/imgs/Docinhos.jpeg" alt="" srcset="">
-                <img src="/imgs/Portaria.jpeg" alt="" srcset="">
-                <img src="/imgs/Frente Infinity.jpeg" alt="" srcset="">
-                <img src="/imgs/Docinhos 2.jpeg" alt="" srcset="">
-            </div>
+
         </section>
 
-    </main>
+
+
 
     <footer id="rodape">
         <!-- Conteúdo do rodapé -->
